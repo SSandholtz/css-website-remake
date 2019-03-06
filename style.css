@@ -2,27 +2,23 @@
     box-sizing: border-box;
 }
 
-.opaque {
-
-    background-color: rgba(47,23,15,.6)
-}
-
 body {
-    background-image: url(./assets/mike-kenneally-46284-unsplash.jpg);
+    background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(47,23,15,.7))), url(./assets/mike-kenneally-46284-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Raleway', sans-serif;
 }
 
 header {
     width: 100%;
     height: 300px;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 70px;
+    color: white;
 }
 
 .nav {

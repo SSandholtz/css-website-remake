@@ -1,103 +1,115 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-    background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(47,23,15,.7))), url(./assets/mike-kenneally-46284-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Raleway', sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom,from(rgba(47, 23, 15, .6))), url(./assets/mike-kenneally-46284-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
-    width: 100%;
     height: 300px;
+    width: 100%;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70px;
-    color: white;
     font-weight: 100;
+    font-size: 80px;
 }
 
 .nav {
-   width: 100%;
-   height: 100px;
-   background-color: rgba(47, 23, 15, 0.9);
-   color: white;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 14px;
-   font-weight: 900;
+    background-color: rgba(47, 23, 15, .9);
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 550px;
+    font-weight: 900;
 }
 
-.nav> div {
-margin: 0px 25px
+.top-main {
+    border: solid black;
+    height: 700px;
+    width: 100%;
+    padding: 75px 250px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .coffee-lady {
     background-image: url(./assets/david-charles-schuett-362484-unsplash.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 65%;
-    height: 32rem;
-    position: relative;
-    top: 7rem;
-    left: 28vw;
+    height: 550px;
+    width: 800px;
+    border-radius: 5px;
 }
 
 .info-box {
-    width: 60%;
-    height: 65%;
-    border: solid white;
-    background-color:  rgba(250, 249, 249, 0.9);
-    position: absolute;
-    top: 3rem;
-    left: -12vw;
-    color: black;
+    background-color: rgb(248, 248, 255, .8);
+    height: 400px;
+    width: 500px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: -200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    
+    padding: 25px;
+    text-align: center;
 }
 
-h3 {
+.info-box> div {
+    font-weight: 900;
+}
+
+.info-box> span {
+    font-size: 40px;
+}
+
+button {
+    height: 50px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.lower-main {
+    border: solid black;
+    height: 550px;
+    width: 100%;
+    background-color: rgba(250, 165, 27, 0.6);
     display: flex;
     justify-content: center;
-    margin: 0px;
-    font-weight: 900;
-} 
-
-h1 {
-    font-size: 45px;
-    text-align: center;
-    margin: 0px;
-    font-weight: 100;
+    align-items: center;
 }
 
-.info-box p {
-font-size: 16px;
-text-align: center;
-font-family: 'Lora', serif;
+.lower-text {
+    height: 400px;
+    width: 70%;
+    background-color: rgb(248, 248, 255, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  0 50px;
 }
 
-.visit-button {
-    width: 8rem;
-    height: 3rem;
-    position: absolute;
-    top: 22.5rem;
-    left: -4rem;
-    border-radius: 5px;
-    background-color: #e6a756;
-    border: 0px;
-    color: white;
-    font-family: 'Lora', serif;
- 
+.empty {
+    height: 100px;
+    width: 100%
 }
 
+footer {
+    border: solid black;
+    background-color: rgba(47, 23, 15);
+    height: 125px;
+    width: 100%;
+}
